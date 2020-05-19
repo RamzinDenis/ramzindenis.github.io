@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d8c0d33e4a.js" crossorigin="anonymous"></script>
+    <title>TODO LIST</title>
+</head>
+<body>
+<section class='main-container'>
+    <div class="container">
+        <div class="container-inner">
+            <div class="container-inner__col-left">
+                <div class="container-inner__col-left__item">
+                    <img src='img/logo-small.jpg' alt='small-logo height="200px"'>
+                    <div class="list">
+                        <div class="list-notes">
+                            <span class ='list-notes__icon'><i class="fas fa-book"></i></span>
+                            <span class='list-notes__text'>Notes</span>
+                            
+
+                        </div>
+                        <div class="list-notes" droppable = 'true'>
+                        <span class ='list-notes__icon'><i class="fas fa-table"></i></i></span>
+                            <span class='list-notes__text table'>Tables</span>
+                            </div>
+                            <div class="list-notes">
+                                <span class ='list-notes__icon'><i class="fas fa-cogs"></i></span>
+                                    <span class='list-notes__text list-notes__text_small'>Settings</span>
+                                    </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="container-inner__col-right">
+                <div class="container-inner__col-right_wrap">
+                    <div class="container-inner__col-right_wrap__logo">
+                        <h4 class='title-logo'>Todo App</h4>
+                        <img src="img/logo.jpg" alt='logo' height="280px">
+                    </div>
+                    <div class="container-inner__col-right_wrap__content">
+                        <div class="container-inner__col-right_wrap__content__form">
+                            <h4 class='title'>Add item</h4>
+                            <div class="form">
+                                <input id='input' class='text' type="text" value="">
+                                <button class='submit'>Submit</button>
+                            </div>
+                        </div>
+                        <div class="container-inner__col-right_wrap__content__list" id ='container'>
+                            <h4 class='title'>Items List</h4>
+                            <div class='todo-list'>
+                                
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- notes on click -->
+<div class="notes">
+    <h4 class='title'>Todo App</h4>
+    <div class="notes__body">
+        <div class="notes__body-title">
+            <input class='notes-input' type='text' placeholder='add item'>
+            <div class="notes__body-title_icon">
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<!-- notes on click -->
+
+
+
+
+
+
+<script src="js/settings.js"></script>
+<script src='js/main.js'></script>
+<script src='js/tables.js'></script>
+
+
+</body>
+
+</html>
