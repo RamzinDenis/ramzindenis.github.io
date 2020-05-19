@@ -1,0 +1,94 @@
+.post-container
+    display: flex
+    justify-content: space-between
+.post-item
+    max-width: 370px
+    transition: all .2s linear
+    &__img
+        position: relative
+        img
+            width: 370px
+            height: 220px
+        &-data
+            position: absolute
+            top: 20px
+            left: 20px
+            color: white
+            text-align: center
+            z-index: 2
+
+        &-day
+            background: #363636
+            width: 50px
+            height: 35px
+            padding: 8px
+            font-size: 24px
+            line-height: 20px
+            border-radius: 5px 5px 0px 0px
+
+        &-month
+            background: #252525
+            height: 25px
+            border-radius: 0px 0px 3px 3px
+    &__body
+        height: 150px
+        border: 2px solid #f8f8f8
+        margin-top: -4px
+        padding: 20px 0px 0px 30px
+            
+    &__title
+        +raleway
+        font-size: 20px
+        color: #555555
+        font-weight: 500
+    &__text
+        margin-top: 20px
+        margin-bottom: 20px
+        width: 85%
+.link
+    display: flex
+    align-items: flex-end
+    &__text
+        color: $highlight
+.triangle-mini
+    margin-left: 10px
+    width: 0
+    height: 0
+    border-top: 6px solid transparent
+    border-bottom: 6px solid transparent
+  
+    border-left: 6px solid $highlight
+
+
+.post-item:hover
+    .post-item__img-day
+        background-color: $highlight
+    .post-item__img-month
+        background-color: $brown
+    .block1-small
+        background-image: linear-gradient(to right, #211b19, #4e3427)
+    .block2-small
+        background-color: #111111
+        opacity: 0.6
+    .post-item__body
+        background-color: #362f2d
+        border: none
+    .post-item__title
+        color: $highlight
+    .post-item__text
+        color: $white
+    
+.block1-small,
+.block2-small
+    height: 220px
+    top: 0
+
+.arrows
+    font-size: 20px
+    text-align: center
+    margin-top: 30px
+    color: #e3e3e3
+    cursor: pointer
+.icon-arrow-circle-left:hover,
+.icon-arrow-circle-right:hover
+    color: $highlight

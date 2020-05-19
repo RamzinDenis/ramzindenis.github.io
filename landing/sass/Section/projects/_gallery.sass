@@ -1,0 +1,86 @@
+.article-common-margin
+    margin-top: 80px
+.gallery__menu
+    display: flex
+    justify-content: center
+    cursor: pointer
+    margin-bottom: 40px
+    &-item
+        padding: 10px 20px
+        border: 1px solid #ebebeb
+        & + &
+            margin-left: 10px
+        &:hover
+            background-color: #998675
+            color: #fff
+.gallery__container
+    display: flex
+    flex-wrap: wrap
+    &-item 
+        margin: 0px 30px 30px 0px
+        transition: all .2s linear
+        &:last-child,
+        &:nth-child(3n)
+            margin: 0        
+        &-img
+            position: relative
+            max-height: 237px
+        &-body
+            height: 100px
+            background-color: #fbfaf8
+        &-title
+            font-size: 20px
+            +raleway
+            font-weight: 500
+            padding-top: 20px
+            margin: 0px 0px 10px 30px
+            color: #c7b299
+        &-text
+            margin-left: 30px
+        &-picture
+            height: 237px
+            width: 370px
+            
+
+.button-big
+    margin: 40px 0px 80px 0px
+    padding: 15px 45px
+    margin: 40px auto 80px
+    display: block
+
+
+.arrow-up 
+    width: 0
+    height: 0
+    border-left: 20px solid transparent
+    border-right: 20px solid transparent
+    border-bottom: 12px solid #fbfaf8
+    position: absolute
+    bottom: 0
+    left: 20px
+    z-index: 2
+.icon-link,
+.icon-lupa
+    position: absolute
+    top: 105px
+    font-size: 20px
+    color: white
+    cursor: pointer
+    display: none
+    z-index: 3
+.icon-link
+    left: 40%
+.icon-lupa
+    left: 52%
+.icon-link:hover,
+.icon-lupa:hover
+    color: $highlight
+
+
+.block1,
+.block2
+    position: absolute
+    height: 237px
+    width: 370px
+    z-index: 1
+    opacity: 0.7

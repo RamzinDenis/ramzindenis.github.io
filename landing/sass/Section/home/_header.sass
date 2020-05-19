@@ -1,0 +1,29 @@
+.header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 40px
+  
+    &__nav
+        display: flex
+        align-items: center
+        &-menu
+            display: flex
+            list-style-type: none
+            &-link
+                color: $white
+            &-item:last-child
+                margin-right: 60px
+            &-item + &-item
+                margin-left: 30px
+        &-icon:first-child
+            margin-right: 25px
+        &-icon
+            font-size: 20px
+
+
+.logo
+    display: flex
+    align-items: center
+    font-size: 36px
+    +raleway

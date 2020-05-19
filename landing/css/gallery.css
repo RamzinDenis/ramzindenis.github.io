@@ -1,0 +1,14 @@
+.article-common-margin {
+  margin-top: 80px;
+}
+
+.gallery__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__menu-item {
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,UAAU,EAAE,IAAI;CAAG;;AACvB,AAAA,cAAc,CAAC;EACX,OAAO,EAAE,IAAI;CAEc;;AAD1B,AAAD,mBAAM,CAAC;EACH,OAAO,EAAE,SAAS;CAAG",
+    "sources": [
+        "../sass/Section/projects/gallery.sass"
+    ],
+    "names": [],
+    "file": "gallery.css"
+}

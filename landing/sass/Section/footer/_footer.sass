@@ -1,0 +1,87 @@
+.footer
+    height: 500px
+    background-color: #191919
+    margin-top: -1px
+    &-logo
+        max-width: 250px
+        &__text
+            margin: 30px 0px
+    &__title
+        +raleway
+        color: $white
+        margin: 20px 0px 25px 0px
+        font-weight: 600
+        font-size: 24px
+    &-post__item
+        border-bottom: 1px solid #363636
+        margin-bottom: 10px
+        padding-bottom: 10px
+        max-width: 270px
+        &-text
+            margin-bottom: 10px
+        &-data
+            font-size: 12px
+            color: #363636
+            margin-bottom: 10px
+    &-highlight
+        color: #00bff3
+            
+
+    &-post__item:hover
+        .footer-post__item-text
+            color: $highlight
+        .footer-post__item-data
+            color: $white
+    &-post__item:last-child
+        margin-bottom: 0
+        border-bottom: none
+        
+
+.container-margin
+    display: flex
+    justify-content: space-between
+    padding-top: 80px
+
+
+
+
+
+.footer-img-container
+    display: flex
+    img
+        margin: 0px 2.5px 5px 
+.logo__text-white
+    color: $white
+.link-white,
+.link__text-white
+    color: $white
+
+.container-nav
+    display: flex
+    justify-content: space-between
+    height: 110px
+    align-items: center
+.footer-nav
+    background-color: #111111
+.footer-menu
+    display: flex
+    list-style-type: none
+    &__item-link 
+        color: #555555
+    &__item
+        margin-right: 10px
+        padding-right: 10px
+        border-right: 1px solid #555555
+        height: 12px
+        display: flex
+        align-items: center
+    &__item-link:hover
+        color: $highlight
+        transition: color .2s linear
+    &__item:last-child
+        margin: 0
+        padding: 0
+        border: none
+
+.footer-nav-highlight
+    color: white

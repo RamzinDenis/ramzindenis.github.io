@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?5sedft');
+  src:  url('fonts/icomoon.eot?5sedft#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5sedft') format('truetype'),
+    url('fonts/icomoon.woff?5sedft') format('woff'),
+    url('fonts/icomoon.svg?5sedft#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left:before {
+  content: "\e910";
+}
+.icon-right:before {
+  content: "\e911";
+}
+.icon-arrow-circle-left:before {
+  content: "\e900";
+}
+.icon-arrow-circle-right:before {
+  content: "\e901";
+}
+.icon-blog:before {
+  content: "\e902";
+}
+.icon-client:before {
+  content: "\e903";
+}
+.icon-cup:before {
+  content: "\e904";
+}
+.icon-delelopment:before {
+  content: "\e905";
+}
+.icon-design:before {
+  content: "\e906";
+}
+.icon-icon-play:before {
+  content: "\e907";
+}
+.icon-launch:before {
+  content: "\e908";
+}
+.icon-likes:before {
+  content: "\e909";
+}
+.icon-link:before {
+  content: "\e90a";
+}
+.icon-lupa:before {
+  content: "\e90b";
+}
+.icon-marketing:before {
+  content: "\e90c";
+}
+.icon-icon-search:before {
+  content: "\e90f";
+}
+.icon-icon-cart:before {
+  content: "\e90e";
+}
+.icon-icon:before {
+  content: "\e90d";
+}

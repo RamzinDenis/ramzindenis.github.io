@@ -1,0 +1,33 @@
+.modal-overlay 
+    position: fixed
+    opacity: 0
+    top: 0
+    height: 100vh
+    width: 100%
+    display: flex
+    align-items: center
+    z-index: -1
+    transition: all 0.5s linear
+    border-collapse: separate
+.modal-overlay.open
+    opacity: 1
+    background-color: rgba(0,0,0, 0.7)
+    z-index: 10
+.modal-window
+    margin: 0 auto
+    text-align: center
+    box-shadow: 0 8px 6px -6px black
+    border-radius: 3px
+    overflow: hidden
+    img
+        max-height: 600px
+        max-width: 1200px
+.modal-footer
+    background-color: white
+    height: 100px
+    justify-content: center
+    display: flex
+    flex-direction: column
+    margin-top: -4px
+.footer-title
+    margin-bottom: 5px
