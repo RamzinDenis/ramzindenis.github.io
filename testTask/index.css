@@ -1,0 +1,47 @@
+.footer {
+	background-color: red;
+}
+.body {
+	background-color: blue;
+}
+
+.header {
+	background-color: #fff;
+}
+
+.flag {
+	font-size: 8px;
+	width: min-content;
+}
+
+body {
+	display: flex;
+}
+
+.form {
+	margin-left: 10%;
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+
+.form input {
+	margin-bottom: 2px;
+	padding: 5px;
+}
+
+.form__btn {
+}
+
+.phone {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.extra-phone {
+	width: 100%;
+}
+
+.phone__wrapper {
+	display: flex;
+}
